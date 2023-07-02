@@ -2,7 +2,7 @@
   "extends": "@tsconfig/recommended/tsconfig.json",
   "include": [
     "src/*"
-  ],
+, "src/adapters/message_adapter.ts"  ],
   "exclude": [
     "node_modules"
   ],
@@ -10,8 +10,8 @@
     "allowJs": true,
     "outDir": "./dist",
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true, 
-    "noImplicitAny": true, 
-    "skipLibCheck": true 
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
   }
 }
